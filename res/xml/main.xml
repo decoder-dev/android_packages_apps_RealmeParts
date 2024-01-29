@@ -86,6 +86,12 @@
             android:title="@string/game_mode_title" />
 
         <SwitchPreference
+            android:key="batterys"
+            android:icon="@drawable/ic_charging_main"
+            android:summary="@string/battery_saving_mode_summary"
+            android:title="@string/battery_saving_mode_title" />
+
+        <SwitchPreference
             android:key="dnd"
             android:icon="@drawable/ic_info_outline_24dp"
             android:title="@string/dnd_title"
